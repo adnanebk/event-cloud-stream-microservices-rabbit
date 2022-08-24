@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/orders")
 public class OrderController {
 
     private static Logger logger = LoggerFactory.getLogger(OrderController.class);

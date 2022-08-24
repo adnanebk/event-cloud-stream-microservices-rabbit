@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        createOrder-out-0:
+          destination: order-topic

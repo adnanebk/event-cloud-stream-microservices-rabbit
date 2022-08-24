@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    stream:
+      bindings:
+        processOrder-in-0:
+          destination: order-topic
+          group: processor
+        processOrder-out-0:
+          destination: order-payed-topic

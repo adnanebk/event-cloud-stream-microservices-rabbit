@@ -12,6 +12,7 @@ to test the application first run the docker command to create rabbitMq containe
  then launch the 3 microservices apps
 
 finnaly test the order endpoint (http://localhost:8080/api/orders , post request) with postman
+ 
  request  body example : {
                          "userId":1,  
                          "totalPrice":100
